@@ -1,0 +1,215 @@
+.app_navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-footer);
+    padding: 1rem 2rem;
+    height: 80px;
+}
+
+.app_navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: -5rem;
+    margin-left: 4rem;
+}
+
+.app_navbar-logo h1 {
+    font-size: 30px;
+    font-style: var(--font-family);
+}
+
+.app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.app__navbar-links li {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.app__navbar-links li:hover {
+    color: var(--color-hover);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+.navbar_button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.navbar_button button {
+    padding: 0.5rem 2rem;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    background: #FF4820;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar_button button:hover {
+    background: var(--color-hover);
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+
+.app__navbar-login div {
+    width: 1px;
+    height: 30px;
+    background-color: var(--color-bg);
+}
+
+.app__navbar-smallscreen {
+    display: none;
+}
+
+.app__navbar-smallscreen_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--color-bg);
+    transition: 0.5s ease;
+
+    flex-direction: column;
+    z-index: 5;
+}
+
+.app__navbar-smallscreen_overlay .overlay__close {
+    font-size: 27px;
+    color: var(--color-white);
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.app__navbar-smallscreen_links {
+    list-style: none;
+    margin-top: 8rem;
+    margin-left: -2.5rem;
+}
+
+.app__navbar-smallscreen_links li {
+    margin: 2rem;
+    cursor: pointer;
+    color: var(--color-white);
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.app__navbar-smallscreen_links li:hover {
+    color: var(--color-hover);
+    font-size: 40px;
+    font-weight: 650;
+}
+
+.open {
+    background: var(--color-orange);
+    position: absolute;
+    height: 90px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.open_inner {
+    background: var(--color-bg);
+    border: var(--color-orange);
+}
+
+.open_inner p {
+    text-align: center;
+    font-family: var(--font-family);
+    color: #fff;
+    font-weight: 40px;
+    margin: 2px;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 2000px) {
+    .app_navbar-logo h1 {
+        width: 210px;
+    }
+
+    .navbar_button button {
+       padding: 1rem 3rem;
+       font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__navbar-links {
+        display: none;
+    }
+
+    .navbar_button button {
+        padding: 1rem 2rem;
+    }
+
+    .navbar_button {
+        margin-right: -18rem;
+    }
+
+    .app__navbar-smallscreen {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app_navbar {
+        padding: 1rem;
+    }
+
+    .navbar_button {
+        padding: 5px 10px;
+        margin: 5px 5px;
+    }
+
+    .navbar_button button {
+        padding: 10px 10px;
+        font-size: 18px;
+        margin-right: -3rem;
+    }
+
+    .app_navbar-logo h1 {
+        font-style: var(--font-family);
+        margin-left: -4rem;
+    }
+
+
+    .BgAnimation__svg {
+        display: 5rem;
+    }
+
+    .navbar_button button:hover {
+        font-size: 20px;
+        padding: 0.7rem;
+     }
+
+    .app_navbar-logo h1 {
+        font-size: 30px;
+    }
+
+}
