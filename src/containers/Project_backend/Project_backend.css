@@ -1,56 +1,51 @@
 .main_carousel {
     width: 100%;
-}
+  }
   
-.item {
+  .item {
     height: 33rem;
     min-width: 20rem;
     padding: 10px;
-}
+  }
   
-.item:hover {
+  .item:hover {
     transform: scale(1.05);
-}
+  }
   
   
-.item img {
+  .item img {
     height: 100%;
     width: 100%;
     border-radius: 2rem;
     pointer-events: none;
-}
+  }
   
   
-.inner-carousel {
+  .inner-carousel {
     display: flex;
-}
+  }
   
   
-.carousel {
+  .carousel {
     overflow: hidden;
     margin: 2% 15%;
     cursor: grab;
-}
+  }
   
-.gradient__text {
+  .gradient__text {
     justify-content: center;
     font-family: var(--font-family);
     font-size: 50px;
     text-align: center;
-}
+  }
   
-@media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     .carousel {
       cursor: grab;
       overflow: hidden;
-      margin: 2% 10%;
-      width: 600px;
+      margin: 2% 23%;
     }
-
-    .main_carousel {
-      margin-right: 30rem;
-    }
-   
+  
     .item {
       height: 30rem;
       min-width: 15rem;
@@ -68,24 +63,23 @@
     
   }
   
-
+  @media screen and (max-width: 650px) {
+    
+  }
   
-@media screen and (max-width: 490px) {
-
-    .main_carousel {
-        margin-right: 6rem;
-    }
-
+  @media screen and (max-width: 490px) {
     .carousel {
       cursor: grab;
       overflow: hidden;
+      margin: 0% 15%;
+      width: 230px;
       display: flex;
-      margin: 5% 10%;
     }
   
     .item {
       height: 26rem;
       min-width: 15rem;
+      padding: 10px;
     }
   
     .gradient__text {
@@ -95,4 +89,4 @@
       text-align: center;
     }
     
-}
+  }

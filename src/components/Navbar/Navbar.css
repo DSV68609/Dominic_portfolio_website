@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-footer);
+    background: var(--color-bg);
     padding: 1rem 2rem;
     height: 80px;
 }
