@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import { Navbar, Header } from './components';
-import { Technologies } from './components';
+import { Technologies, Projects } from './components';
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
             <Header/>
          </div>
         <Technologies/>
+        <Projects/>
     </div>
   )
 }
