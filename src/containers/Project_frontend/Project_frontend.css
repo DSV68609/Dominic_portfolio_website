@@ -1,5 +1,6 @@
 .main_carousel {
     width: 100%;
+    background: var(--color-footer);
 }
   
 .item {
@@ -23,6 +24,7 @@
   
 .inner-carousel {
     display: flex;
+    background: var(--color-footer);
 }
   
   
@@ -30,6 +32,7 @@
     overflow: hidden;
     margin: 2% 15%;
     cursor: grab;
+    background: var(--color-footer);
 }
   
 .gradient__text {
@@ -40,11 +43,16 @@
 }
   
 @media screen and (max-width: 1050px) {
+    
+    .main_carousel .carousel {
+      margin-left: 9rem;
+    }
+  
     .carousel {
       cursor: grab;
       overflow: hidden;
       margin: 2% 10%;
-      width: 600px;
+      width: 500px;
     }
 
     .main_carousel {
@@ -72,8 +80,9 @@
   
 @media screen and (max-width: 490px) {
 
-    .main_carousel {
-        margin-right: 6rem;
+
+    .main_carousel .carousel {
+      margin-left: 4.5rem;
     }
 
     .carousel {

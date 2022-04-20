@@ -2,6 +2,8 @@ import React from 'react'
 import './App.css';
 import { Navbar, Header } from './components';
 import { Technologies, Projects } from './components';
+import { Contacts, Footer } from './components';
+import { Project_frontend, Project_backend } from './containers';
 
 const App = () => {
   return (
@@ -11,7 +13,10 @@ const App = () => {
             <Header/>
          </div>
         <Technologies/>
-        <Projects/>
+        <Project_frontend/>
+        <Project_backend/>
+        <Contacts/>
+        <Footer/>
     </div>
   )
 }

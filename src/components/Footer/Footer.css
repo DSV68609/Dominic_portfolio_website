@@ -1,0 +1,43 @@
+footer{
+    background: var(--color-footer);
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+footer span a{
+    color: var(--color-orange);
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1050px) {
+    footer{
+        font-size: 20px;
+        justify-content: center;
+     }
+     footer{
+        margin-top: 15rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    footer{
+        font-size: 20px;
+     }
+   
+}
+
+@media screen and (max-width: 490px) {
+
+    footer{
+       font-size: 15px;
+       justify-content: center;
+       margin-top: 24rem;
+    }
+
+}
