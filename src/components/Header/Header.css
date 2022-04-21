@@ -15,6 +15,66 @@
     margin-top: -3rem;
 }
 
+.icon_link .gmail_icon p  {
+    font-size: 20px;
+    color: var(--color-white);
+    position: absolute;
+    margin-top: -7rem;
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 
+    73% 55%/150% 150% no-repeat;
+    margin-left: -5rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.icon_link .github_icon p  {
+    font-size: 20px;
+    color: var(--color-white);
+    position: absolute;
+    margin-top: -7rem;
+    margin-right: -3rem;
+    background: #684eeb;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.icon_link .fb_icon p  {
+    font-size: 20px;
+    color: var(--color-white);
+    position: absolute;
+    margin-top: -7rem;
+    margin-left: -4rem;
+    background: #3b5998;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.icon_link .insta_icon p  {
+    font-size: 20px;
+    color: var(--color-white);
+    position: absolute;
+    margin-top: -7rem;
+    margin-left: -9px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.icon_link .tweet_icon p  {
+    font-size: 20px;
+    color: var(--color-white);
+    position: absolute;
+    margin-top: -7rem;
+    margin-left: -2rem;
+    background: #00acee;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
 
 .BgAnimation__svg {
     height: 35rem;
@@ -45,6 +105,18 @@
     display: flex;
     flex-direction: row;
 }
+
+.header-content__input .contact_icon p {
+    font-size: 25px;
+    color: var(--color-white);
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: -13rem;
+    background: var(--color-orange);
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
 
 
 .header-content__input button {
@@ -204,4 +276,40 @@
         font-size: 12px;
         line-height: 16px;
     }
+
+    .icon_link .gmail_icon p {
+        margin-top: -5rem;
+        margin-left: -2rem;
+    }
+
+    .icon_link .github_icon p {
+        margin-top: -5rem;
+        margin-left: -1rem;
+    }
+
+    .icon_link .fb_icon p {
+        margin-top: -5rem;
+        margin-left: -6rem;
+    }
+
+    .icon_link .insta_icon p {
+        margin-top: -5rem;
+    }
+
+    .icon_link .tweet_icon p {
+        margin-top: -5rem;
+        margin-left: -7rem;
+    }
+
+    .header-content__input .contact_icon p {
+        font-size: 15px;
+        color: var(--color-white);
+        position: absolute;
+        margin-top: -4rem;
+        margin-left: -10rem;
+        background: var(--color-orange);
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
 }

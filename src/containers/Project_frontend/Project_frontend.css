@@ -1,6 +1,7 @@
 .main_carousel {
     width: 100%;
     background: var(--color-footer);
+    padding: 10px 20px;
 }
   
 .item {
@@ -82,7 +83,8 @@
 
 
     .main_carousel .carousel {
-      margin-left: 4.5rem;
+      margin-left: 3rem;
+      width: 250px;
     }
 
     .carousel {
