@@ -2,6 +2,12 @@ import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import './Navbar.css';
+import home from '../../assets/navbar_links/home.png';
+import about from '../../assets/navbar_links/about.png';
+import technologies from '../../assets/navbar_links/technologies.png';
+import projects from '../../assets/navbar_links/projects.png';
+import contacts from '../../assets/navbar_links/contacts.png';
+
 
 const Navbar = () => {
 
@@ -13,11 +19,28 @@ const Navbar = () => {
                 <h1 className="nav_text">Portfolio</h1>
             </div>
             <ul className="app__navbar-links">
-                <li className="nav_text"><a href="#home">Home</a></li>
-                <li className="nav_text"><a href="#about">About</a></li>
-                <li className="nav_text"><a href="#menu">Technologies</a></li>
-                <li className="nav_text"><a href="#awards">Projects</a></li>
-                <li className="nav_text"><a href="#contact">Contacts</a></li>
+                <div class="wrapper">
+                    <div class="button">
+                        <div class="icon"><img src={home} alt="#home"/></div>
+                        <span>Home</span>
+                    </div>
+                    <div class="button">
+                        <div class="icon"><img src={about} alt="#about"/></div>
+                        <span>About</span>
+                    </div>
+                    <div class="button">
+                        <div class="icons"><img src={technologies} alt="#technologies"/></div>
+                        <span>Techology</span>
+                    </div>
+                    <div class="button">
+                        <div class="icons"><img src={projects} alt="#projects"/></div>
+                        <span>Projects</span>
+                    </div>
+                    <div class="button">
+                        <div class="icons"><img src={contacts} alt="contacts"/></div>
+                        <span>Contact</span>
+                    </div>
+                </div>
             </ul>
             <div className="navbar_button">
                 <button type="button">Let's Talk</button>
