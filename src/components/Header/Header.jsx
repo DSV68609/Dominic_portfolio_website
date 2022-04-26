@@ -38,7 +38,7 @@ const Header = () => {
           <button onClick={() => setIsContact(!isContact)} type="button">Contact and Hire Me!</button>
           {isContact &&
             <div className="contact_icon">
-              <p>Number: 09915708880</p>
+              <p>Call Me: 09915708880</p>
             </div>
           }
         </div>

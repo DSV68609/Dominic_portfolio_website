@@ -81,7 +81,10 @@
     border-radius: 50px;
     box-sizing: border-box;
     line-height: 60px;
+}
 
+.button .home_choices {
+    background: var(--color-orange);
 }
 
 .wrapper .button .icon img {
@@ -105,7 +108,7 @@
 .wrapper .button span {
     font-size: 25px;
     font-weight: 500;
-    line-height: 60px;
+    line-height: 75px;
     margin-left: 10px;
     font-family: var(--font-family);
     color: var(--color-white);

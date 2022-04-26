@@ -19,25 +19,25 @@ const Navbar = () => {
                 <h1 className="nav_text">Portfolio</h1>
             </div>
             <ul className="app__navbar-links">
-                <div class="wrapper">
-                    <div class="button">
-                        <div class="icon"><img src={home} alt="#home"/></div>
+                <div className="wrapper">
+                    <div className="button" href="#Header">
+                        <div className="icon"><img src={home} href="#Header"/></div>
                         <span>Home</span>
                     </div>
-                    <div class="button">
-                        <div class="icon"><img src={about} alt="#about"/></div>
+                    <div className="button" href="#Header">
+                        <div className="icon"><img src={about} alt="#about"/></div>
                         <span>About</span>
                     </div>
-                    <div class="button">
-                        <div class="icons"><img src={technologies} alt="#technologies"/></div>
+                    <div className="button" href="#Technologies">
+                        <div className="icons"><img src={technologies} alt="#technologies"/></div>
                         <span>Techology</span>
                     </div>
-                    <div class="button">
-                        <div class="icons"><img src={projects} alt="#projects"/></div>
+                    <div className="button" href="#Projects">
+                        <div className="icons"><img src={projects} alt="#projects"/></div>
                         <span>Projects</span>
                     </div>
-                    <div class="button">
-                        <div class="icons"><img src={contacts} alt="contacts"/></div>
+                    <div className="button" href="#Contacts">
+                        <div className="icons"><img src={contacts} alt="contacts"/></div>
                         <span>Contact</span>
                     </div>
                 </div>
